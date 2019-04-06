@@ -15,4 +15,4 @@ With the cursor position sorted out, the rest of the work was to configure the p
 
 ## Demo
 
-![power_mode_android](https://user-images.githubusercontent.com/723360/55664839-0c899480-5803-11e9-8fdf-c75704822c0d.gif)
+![power_mode_android](https://user-images.githubusercontent.com/723360/55664880-b2d59a00-5803-11e9-93d8-5fa02689a1b1.gif)
