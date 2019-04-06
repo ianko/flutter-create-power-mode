@@ -25,7 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   pimp_my_button:
     git:
-      url: git://github.com/Norbert515/pimp_my_button.git
+      url: https://github.com/Norbert515/pimp_my_button.git
 
 dev_dependencies:
   flutter_test:
