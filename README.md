@@ -1,16 +1,18 @@
-# power_mode
+# Power Mode for Flutter Create 2019
 
-A new Flutter project.
+This project is inspired inspired by [Joel Besada's famous Power Mode plugin](https://twitter.com/JoelBesada/status/670343885655293952), and heavily dependent on [Norbert Kozsir's particles from `pimp_my_button` plugin](https://github.com/Norbert515/pimp_my_button).
 
-## Getting Started
+One of the best things about Flutter is that we have access to both low and high level widgets. The [`TextField`](https://github.com/flutter/flutter/blob/stable/packages/flutter/lib/src/material/text_field.dart) widget didn't give me the option to find the cursor position, but after looking at the source code, I could see that it uses the [`EditableText`](https://github.com/flutter/flutter/blob/stable/packages/flutter/lib/src/widgets/editable_text.dart) as base, and that one had all the low level access that I needed.
 
-This project is a starting point for a Flutter application.
+With the cursor position sorted out, the rest of the work was to configure the particles and animations for every character typed.
 
-A few resources to get you started if this is your first Flutter project:
+## Instructions
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+* [LICENSE](LICENSE) (MIT)
+* Channel: `stable` (v1.2.1 as per April 6th, 2019)
+* Platform: `iOS` and `Android`
+  * NOTE: Because of the `HapticFeedback`, it's recommended to use iOS 10+ and Android API Level 23+, for best experience.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Demo
+
+![power_mode_android](https://user-images.githubusercontent.com/723360/55664839-0c899480-5803-11e9-8fdf-c75704822c0d.gif)
